@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import os
 from tavily import TavilyClient
 from rich import print
+
 from bs4 import BeautifulSoup
 from readability import Document
 import trafilatura
